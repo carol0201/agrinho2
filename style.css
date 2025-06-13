@@ -11,7 +11,8 @@
     --font-titulo: "Rakkas", serif;
 }
 
-/* código omitido *//* código omitido */
+/* código omitido */
+/* código omitido */
 
 /* Reset */
 * {
@@ -41,25 +42,13 @@ img {
 }
 
 /* código omitido */
-/* código omitido */
+button {
+  background-color: ______;
+  color: ______;
+  border-radius: ______;
+  transition: ______;
+}
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .conteudo {
-        width: 90%;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 5px 0;
-    }
-
-    .cta-button {
-        width: 100%;
-    }
+button:hover {
+  ________________: #2980b9;
 }
